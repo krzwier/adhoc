@@ -13,7 +13,7 @@
 <body>
     <!-- Navbar Component -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/logo.png" alt="Adhoc logo"></a>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Adhoc logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,7 +37,7 @@
     </nav>
 
     <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid" style="background:url(https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
+    <div class="jumbotron jumbotron-fluid" style="background:url(img/jumbotron.png) no-repeat; background-size: cover;">
         <div class="bg-secondary text-white text-center my-5">
             <h1 class="display-3">Administration made easy</h1>
             <p>
@@ -50,36 +50,52 @@
     <div class="container">
         <!-- Quote Section -->
         <div class="row">
-            <div class="col">
-                <h2>"Thanks to Adhoc we now have beautiful and faithful service every
+            <div class="col my-5">
+                <h2 class="font-italic font-weight-light">"Thanks to Adhoc we now have beautiful and faithful service every
                     day. Our customers are happy and engagement has drastically increased. Highly recommend!"</h2>
-                <p>-Dave Ellavar, <span>Academy of Code</span></p>
+                <p class="text-right font-italic font-weight-bold">-Dave Ellavar, <span class="font-weight-normal">Academy of Code</span></p>
             </div>
         </div>
         <hr>
 
         <!-- Why Adhoc? Text -->
-        <div class="row">
+        <div class="row my-5">
             <div class="col">
-                <h2>Why Adhoc?</h2>
+                <h2 class="text-center display-4">Why Adhoc?</h2>
             </div>
         </div>
 
         <!-- Image Reasons Section -->
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center my-4">
+            <div class="col-8 col-md-4">
                 <!-- First card goes here -->
+                <div class="card border-0">
+                    <img class="card-img-top" src="img/experienced.png" alt="experienced" />
+                    <div class="card-body">
+                        <p class="card-text text-center">Over 9000 happy clients, and we learn something new from each one.</p>
+                    </div>
+                </div>
 
             </div>
 
-            <div class="col">
+            <div class="col-8 col-md-4">
                 <!-- Second card goes here -->
-
+                <div class="card border-0">
+                    <img class="card-img-top" src="img/fun.png" alt="fun" />
+                    <div class="card-body">
+                        <p class="card-text text-center">Administration? Fun? Yea, somehow we make it happen.</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="col">
+            <div class="col-8 col-md-4">
                 <!-- Third card goes here -->
-
+                <div class="card border-0">
+                    <img class="card-img-top" src="img/smart.png" alt="smart" />
+                    <div class="card-body">
+                        <p class="card-text text-center">Innovative solutions to the trickiest of everyday tasks.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
